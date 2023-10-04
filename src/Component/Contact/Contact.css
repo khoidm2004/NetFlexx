@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  margin-top: 20%;
+  display: flex;
+
+}
+
+.right_row{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+
+.left_row h1{
+  color:white;
+  font-size: 60px;
+}
+
+.left_row p {
+  margin-top: 20px;
+  color:white;
+  font-size: 25px;
+}
+
+.social_icons {
+  margin-left: 15px;
+}
+
+.social_icons a{
+  margin-left: 5px;
+  font-size: 2rem;
+}
+
+.social_icons a:hover{
+  color:#FF0000;
+}
+
+.right_row input{
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  height: 3rem;
+  width: 50vh;
+}
+
+.right_row textarea{
+  border-radius: 5px;
+  margin-bottom: 30px;
+  height: 70px;
+}
+
+.right_row button{
+  border-radius: 5px;
+  width: 35%;
+  font-size: 20px;
+}
+
+.right_row button:hover{
+  background-color: #FF0000;
+  transition: 0.5s;
+  color: #fff;
+}
+
+form textarea, form input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: white;
+  color:black;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+
+
+
+
+
