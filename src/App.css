@@ -29,9 +29,9 @@ body {
   flex-direction: column;
 }
 
-.navbar{
+.navbar {
   margin-bottom: 16px;
-} 
+}
 
 .nav {
   color: white;
@@ -48,7 +48,7 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 .nav ul {
@@ -59,12 +59,12 @@ body {
   gap: 1rem;
 }
 
-.nav li{
+.nav li {
   list-style: none;
   font-size: 2rem;
 }
 
-.nav li:hover{
+.nav li:hover {
   background: #777;
   transition: 0.5s;
 }
@@ -130,7 +130,7 @@ body {
   background: #1f2123;
   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-} 
+}
 
 .empty {
   width: 100%;
@@ -271,5 +271,4 @@ body {
     width: "100%";
     margin: 1rem;
   }
-
 }

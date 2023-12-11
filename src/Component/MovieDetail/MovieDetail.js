@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import MovieDetail_Card from './MovieDetail_Card';
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import MovieDetail_Card from "./MovieDetail_Card";
 import "./MovieDetail.css";
 import {} from "react-icons/fa";
-
 
 export default function MovieDetail() {
   const routerParams = useParams();
@@ -16,7 +15,6 @@ export default function MovieDetail() {
       fetchData(id);
     }
   }, [id]);
-
 
   const fetchData = async (imdbID) => {
     try {
@@ -35,14 +33,16 @@ export default function MovieDetail() {
 
   return (
     <>
-      <div className='container_MovieDetail'>
-        <a href='/' className='home'>NetFlexx</a>
-        <div className='rows'>
-          <div className='left-row'>
+      <div className="container_MovieDetail">
+        <a href="/" className="home">
+          NetFlexx
+        </a>
+        <div className="rows">
+          <div className="left-row">
             <MovieDetail_Card film={film} />
           </div>
-          <div className='right-row'>
-            <div className='content-MovieDetail'>
+          <div className="right-row">
+            <div className="content-MovieDetail">
               <h1>{film.Title}</h1>
               <p>
                 <strong>Relseased:</strong> {film.Released}
@@ -58,7 +58,7 @@ export default function MovieDetail() {
                 <strong>Plot:</strong> {film.Plot}
               </p>
             </div>
-            <div className='container_button'>
+            <div className="container_button">
               <button>Watch</button>
               <button>Save</button>
               <button>Report</button>
@@ -68,6 +68,4 @@ export default function MovieDetail() {
       </div>
     </>
   );
-};
-
-
+}

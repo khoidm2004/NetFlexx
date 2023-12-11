@@ -7,21 +7,22 @@
   box-sizing: border-box;
 }
 
-.container_NotFound{
-    display: block;
-    justify-content: center;
-    text-align: center;
+.container_NotFound {
+  display: block;
+  justify-content: center;
+  text-align: center;
 }
 
-.h1_NotFound{
-    font-size: 40vh;
+.h1_NotFound {
+  font-size: 40vh;
 }
 
-.p_NotFound{
-    font-size: 10vh;
+.p_NotFound {
+  font-size: 10vh;
 }
 
-.h1_NotFound:hover,.p_NotFound:hover{
-    color: #f0f0f0;
-    transform: 1s;
+.h1_NotFound:hover,
+.p_NotFound:hover {
+  color: #f0f0f0;
+  transform: 1s;
 }

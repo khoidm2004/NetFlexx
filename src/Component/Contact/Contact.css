@@ -7,26 +7,24 @@
   box-sizing: border-box;
 }
 
-.row{
+.row {
   margin-top: 20%;
   display: flex;
-
 }
 
-.right_row{
+.right_row {
   margin-top: 30px;
   margin-left: 50px;
 }
 
-
-.left_row h1{
-  color:white;
+.left_row h1 {
+  color: white;
   font-size: 60px;
 }
 
 .left_row p {
   margin-top: 20px;
-  color:white;
+  color: white;
   font-size: 25px;
 }
 
@@ -34,16 +32,16 @@
   margin-left: 15px;
 }
 
-.social_icons a{
+.social_icons a {
   margin-left: 5px;
   font-size: 2rem;
 }
 
-.social_icons a:hover{
-  color:#FF0000;
+.social_icons a:hover {
+  color: #ff0000;
 }
 
-.right_row input{
+.right_row input {
   display: block;
   margin-bottom: 16px;
   border-radius: 5px;
@@ -51,36 +49,31 @@
   width: 50vh;
 }
 
-.right_row textarea{
+.right_row textarea {
   border-radius: 5px;
   margin-bottom: 30px;
   height: 70px;
 }
 
-.right_row button{
+.right_row button {
   border-radius: 5px;
   width: 35%;
   font-size: 20px;
 }
 
-.right_row button:hover{
-  background-color: #FF0000;
+.right_row button:hover {
+  background-color: #ff0000;
   transition: 0.5s;
   color: #fff;
 }
 
-form textarea, form input {
+form textarea,
+form input {
   width: 100%;
   border: 0;
   outline: none;
   background: white;
-  color:black;
+  color: black;
   font-size: 20px;
   border-radius: 6px;
 }
-
-
-
-
-
-

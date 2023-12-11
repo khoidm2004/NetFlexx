@@ -7,12 +7,11 @@
   box-sizing: border-box;
 }
 
-.container_footer{
-    margin-top: 25vh;
-    color: antiquewhite;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.container_footer {
+  margin-top: 25vh;
+  color: antiquewhite;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-

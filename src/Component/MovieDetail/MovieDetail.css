@@ -8,58 +8,53 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container_MovieDetail{
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.container_MovieDetail {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
-.rows{
-    display: flex;
-    padding-top: 2rem;
+.rows {
+  display: flex;
+  padding-top: 2rem;
 }
 
-.left-row{
-    margin-right: 2rem;
-    margin-left: 1rem;
+.left-row {
+  margin-right: 2rem;
+  margin-left: 1rem;
 }
 
-.MovieDetail_Card img{
-    height: 600px;
-    width: 400x;
-    position: relative;
-    border-radius: 5px;
+.MovieDetail_Card img {
+  height: 600px;
+  width: 400x;
+  position: relative;
+  border-radius: 5px;
 }
 
-
-.right-row{
-    margin-left: 1rem;
+.right-row {
+  margin-left: 1rem;
 }
 
-.content-MovieDetail{
-    background: #f0f0f0;
-    border-radius: 5px;
+.content-MovieDetail {
+  background: #f0f0f0;
+  border-radius: 5px;
 }
 
-p{
-    font-size: 1rem;
+p {
+  font-size: 1rem;
 }
 
-.container_button button{
-    cursor: pointer;
-    width: 180px;
-    height: 40px;
-    border-radius: 5px ;
-    border:2px solid black;
+.container_button button {
+  cursor: pointer;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
-.container_button button:hover{
-    color: inherit;
-    background:#00FF99 ;
+.container_button button:hover {
+  color: inherit;
+  background: #00ff99;
 }
-
-
-

@@ -7,30 +7,22 @@
   box-sizing: border-box;
 }
 
-.container_about{
+.container_about {
   margin-top: 2rem;
   background-color: white;
   display: block;
 }
 
-h1{
+h1 {
   margin-bottom: 16px;
   margin-left: 20px;
   margin-top: 10px;
   font-size: 3rem;
 }
 
-p{
+p {
   margin-bottom: 16px;
-  margin-left:20px;
+  margin-left: 20px;
   margin-right: 5px;
   line-height: 24px;
 }
-
-
-
-
-
-
-
-
