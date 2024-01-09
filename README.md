@@ -1,4 +1,4 @@
-# React task1 - Movie - website
+# Movie website (React)
 
-
+Tech stack: React, Material-UI
 
